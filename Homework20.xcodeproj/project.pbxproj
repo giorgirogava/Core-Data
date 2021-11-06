@@ -14,6 +14,8 @@
 		88420CF02736B056000288A3 /* Homework20.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88420CEE2736B056000288A3 /* Homework20.xcdatamodeld */; };
 		88420CF22736B057000288A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88420CF12736B057000288A3 /* Assets.xcassets */; };
 		88420CF52736B057000288A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88420CF32736B057000288A3 /* LaunchScreen.storyboard */; };
+		88420CFE2736B430000288A3 /* ToDoListItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88420CFC2736B430000288A3 /* ToDoListItem+CoreDataClass.swift */; };
+		88420CFF2736B430000288A3 /* ToDoListItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88420CFD2736B430000288A3 /* ToDoListItem+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		88420CF12736B057000288A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88420CF42736B057000288A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88420CF62736B057000288A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88420CFC2736B430000288A3 /* ToDoListItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ToDoListItem+CoreDataClass.swift"; path = "Homework20/ToDoListItem/ToDoListItem+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		88420CFD2736B430000288A3 /* ToDoListItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ToDoListItem+CoreDataProperties.swift"; path = "Homework20/ToDoListItem/ToDoListItem+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		88420CE42736B056000288A3 /* Homework20 */ = {
 			isa = PBXGroup;
 			children = (
+				88420D002736B44D000288A3 /* ToDoListItem */,
 				88420CE52736B056000288A3 /* AppDelegate.swift */,
 				88420CE72736B056000288A3 /* SceneDelegate.swift */,
 				88420CE92736B056000288A3 /* ViewController.swift */,
@@ -68,6 +73,15 @@
 				88420CEE2736B056000288A3 /* Homework20.xcdatamodeld */,
 			);
 			path = Homework20;
+			sourceTree = "<group>";
+		};
+		88420D002736B44D000288A3 /* ToDoListItem */ = {
+			isa = PBXGroup;
+			children = (
+				88420CFC2736B430000288A3 /* ToDoListItem+CoreDataClass.swift */,
+				88420CFD2736B430000288A3 /* ToDoListItem+CoreDataProperties.swift */,
+			);
+			path = ToDoListItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +158,8 @@
 				88420CEA2736B056000288A3 /* ViewController.swift in Sources */,
 				88420CF02736B056000288A3 /* Homework20.xcdatamodeld in Sources */,
 				88420CE62736B056000288A3 /* AppDelegate.swift in Sources */,
+				88420CFE2736B430000288A3 /* ToDoListItem+CoreDataClass.swift in Sources */,
+				88420CFF2736B430000288A3 /* ToDoListItem+CoreDataProperties.swift in Sources */,
 				88420CE82736B056000288A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
